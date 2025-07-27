@@ -23,3 +23,11 @@ steps:
 ```
 
 By default jobs run in parallel...
+
+
+CI could be skipped for instance when I only post new comment by pushing a commit with message including one of:
+- [skip ci]
+- [ci skip]
+- [no ci]
+- [skip actions]
+- [actions skip]
