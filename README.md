@@ -21,3 +21,5 @@ steps:
         uses: actions/checkout@v3
         with: <place here some action-specific settings>
 ```
+
+By default jobs run in parallel...
