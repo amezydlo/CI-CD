@@ -8,4 +8,6 @@ jobs:
       - name: Print greeting
         run: echo "Hello worlds"
       - name: Print goodbye
-        run: echo "Done - adios"
+        run: | 
+          echo "Done - adios"
+          echo "Psst, adios means bye!"
