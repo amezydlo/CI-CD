@@ -29,6 +29,6 @@ jobs:
         with:
           name: dist-files
       - name: Deploy
-        run: ls
+        run: ls -lt
 
     
